@@ -1,0 +1,29 @@
+.nav > h2 {
+color: blueviolet;
+background-color: aqua;
+}
+
+.main > h1  {
+    color: crimson;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    word-spacing: 1.5px;
+    text-shadow: 2px 3px 2px white ;
+
+}
+
+.main {
+    background-color: blueviolet;
+    text-align: justify;
+}
+
+.main > a{
+    color: brown;
+    
+}
+
+ol{
+background-color: yellow;
+font-family: Arial, Helvetica, sans-serif;
+}

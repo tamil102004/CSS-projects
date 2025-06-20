@@ -1,0 +1,38 @@
+
+#nav{
+    background-color: chartreuse;
+    height: 100px;
+}
+
+#nav  > h2  {
+color: purple;
+font-style: italic;
+}
+
+.main > p{
+    font-size: large;
+    background-color: yellow;
+    height: 200px;
+}
+
+.main > p > span {
+    font-weight: 700;
+    text-decoration: underline;
+    background-color: deeppink;
+}
+
+
+*{
+    text-align: center;
+}
+.main > ul{
+    font-size: medium;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main > h2 > .white{
+    color: aqua;
+
+}
