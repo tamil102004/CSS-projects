@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+   /* margin: 30px;*/
+   margin-bottom: 20px;
+}
+
+.box1{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+}
+
+.box2{
+    height: 200px ;
+    width: 300px ;
+    background-color: blueviolet;
+    padding:20px ;
+    margin-top: 20px;
+}
+
+.box1{
+    margin-bottom: 20px;
+}
+
+ p{
+font-style: italic;
+letter-spacing: 1.5px;
+margin-bottom: 10px;
+}
+
+button{
+   border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: inset;
+}
+
+button:hover{
+    background-color: black;
+    color: green;
+}

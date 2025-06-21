@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.container{
+    height: 200px;
+    width: 400px;
+    border: 2px solid green;
+}
+
+.container > .box{
+    height: 70px;
+    width: 80px;
+    border: 2px solid red;
+    margin:5px;
+}
+
+.container > #box1{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container > #box2{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container > #box3{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container > #box4{
+    display: inline-block;
+}
+
+.container > button{
+    display: block;
+    margin : 50px;
+    width: 300px;
+    padding-left: 10px;
+    background-color: coral;
+}
+
+.container > button:hover{
+    color: white;
+    background-color: green;
+}
+
+.container > p{
+    display: none;
+}
+
+
+.card{
+    border: 3px solid black;
+    width: 300px;
+    padding: 10px 20px ;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.card > button{
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: darkorange;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+}
+
+.card > button:hover{
+    color: white;
+    background-color: red;
+}
+
+
+.unit{
+    width:300px;
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+}
+
+.unit > button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.unit > button:hover{
+     color: white;
+     background-color: yellow;
+}
+
+.unit > h3{
+    color: white;
+    
+}
+
+.unit > p{
+  font-style: italic;
+}
