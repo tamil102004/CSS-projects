@@ -1,0 +1,80 @@
+/*.card{
+    border: 3px solid black;
+    width: 300px;
+    padding: 10px 20px ;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.card > button{
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: darkorange;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+}
+
+.card > button:hover{
+    color: white;
+    background-color: red;
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    background-color: black; 
+    justify-content: center;
+    align-items: center;  
+}
+
+.unit{
+    width:300px;
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+    
+}
+
+.unit > button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.unit > button:hover{
+     color: white;
+     background-color: yellow;
+}
+
+.unit > h3{
+    color: white;
+    
+}
+
+.unit > p{
+  font-style: italic;
+}
+
+
+
