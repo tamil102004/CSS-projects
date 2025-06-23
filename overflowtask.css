@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    gap: 10px;
+    overflow: scroll;
+}
+
+.outer > img{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+

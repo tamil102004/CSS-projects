@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.inner{
+    width: 500px;
+    height: 350px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: auto;
+    box-shadow: 10px 10px 10px black;
+}
+
+.inner > h1{
+    text-align: center;
+}
+
+.inner > p{
+    letter-spacing: 1px;
+    margin: 10px;
+    text-indent: 100px;
+    text-align: justify;
+    font-style: oblique;
+}
+p::first-letter{
+ font-weight: bold;
+ font-size: 2em;
+}
+ 
+::-webkit-scrollbar{
+    display: none;
+}

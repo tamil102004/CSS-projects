@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    width: 400px;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+form > label{
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+header > h1{
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+
+header > p{
+    font-style: italic;
+    font-size: normal;
+    margin-bottom: 5px;
+}
+
+form > input{
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 5px;
+   
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+footer > p{
+    font-style: italic;
+    margin-top: 5px;  
+}
+
+footer > a{
+    color: blue;
+    margin-top: 5px;
+}
+
+footer >a:hover{
+    
+    color: green;
+}
+
+input::placeholder{
+    color: red;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+}
